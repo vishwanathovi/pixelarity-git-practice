@@ -35,7 +35,7 @@
 						</ul>
 					</li>
 					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li class="select-li"><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav>
 			<div class="header__sm-text"><strong>Momemtum</strong> by Pixelarity</div>
@@ -350,21 +350,25 @@
 							<option value="Morning">Morning</option>
 						</select>
 					</div>
-					<div class="row">
-						<div>
-							<input type="radio" id="alpha"
-							name="drone" value="alpha" checked />
-							<label for="alpha">Radio alpha</label>
+					<div class="row radio-main">
+						<div class="radio-set">
+							<span class="circle"></span>
+							<input class="radio-btn" type="radio" id="alpha"
+							value="alpha" checked />
+							<label class="radio-label alpha-radio" for="alpha">Radio alpha</label>
+
 						</div>
-						<div>
+						<div class="radio-set">
+							<span class="circle"></span>
 							<input type="radio" id="beta"
-							name="drone" value="beta" />
-							<label for="beta">Radio beta</label>
+							value="beta" />
+							<label class="radio-label" for="beta">Radio beta</label>
 						</div>
-						<div>
+						<div class="radio-set">
+							<span class="circle"></span>
 							<input type="radio" id="gamma"
-							name="drone" value="gamma" />
-							<label for="gamma">Radio gamma</label>
+							value="gamma" />
+							<label class="radio-label" for="gamma">Radio gamma</label>
 						</div>
 					</div>
 					<div class="row">
@@ -383,8 +387,8 @@
 						<textarea placeholder="Alpha beta gamma delta"></textarea>
 					</div>
 					<div class="row">
-						<button class="btn blue-btn">Submit</button>
-						<button class="btn">Reset</button>
+						<button class="btn blue-btn">Submit Form</button>
+						<button class="btn default-btn">Reset</button>
 					</div>
 				</div>
 

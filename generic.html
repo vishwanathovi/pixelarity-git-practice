@@ -12,21 +12,36 @@
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
-	<title> Elements </title>
+	<title>Generic</title>
 </head>
 <body>
 	<header>
 		<div class="wrapper">
 			<nav class="header__nav">
-				<ul>
+				<ul class="first-ul">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#">Dropdown</a></li>
+					<li class="dropdown-parent"><a href="#">Dropdown</a>
+						<ul class="dropdown-main">
+							<li>Option 1</li>
+							<li>Option 2</li>
+							<li>Option 3</li>
+							<li class="submenu-parent">Submenu
+								<ul class="submenu-main">
+									<li>Option 1</li>
+									<li>Option 2</li>
+									<li>Option 3</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
 					<li><a href="generic.html">Generic</a></li>
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav>
 			<div class="header__sm-text"><strong>Momemtum</strong> by Pixelarity</div>
-			<h1 class="header__lr-text">Generic Page</h1>
+			<h1 class="header__lr-text">Generic</h1>
+
+			<!-- <h1 class="header__lr-text">Elements</h1> -->
 		</div>
 	</header>
 	<main>

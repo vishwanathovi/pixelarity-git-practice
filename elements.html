@@ -18,15 +18,30 @@
 	<header>
 		<div class="wrapper">
 			<nav class="header__nav">
-				<ul>
+				<ul class="first-ul">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#">Dropdown</a></li>
+					<li class="dropdown-parent"><a href="#">Dropdown</a>
+						<ul class="dropdown-main">
+							<li>Option 1</li>
+							<li>Option 2</li>
+							<li>Option 3</li>
+							<li class="submenu-parent">Submenu
+								<ul class="submenu-main">
+									<li>Option 1</li>
+									<li>Option 2</li>
+									<li>Option 3</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
 					<li><a href="generic.html">Generic</a></li>
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav>
 			<div class="header__sm-text"><strong>Momemtum</strong> by Pixelarity</div>
 			<h1 class="header__lr-text">Elements</h1>
+
+			<!-- <h1 class="header__lr-text">Elements</h1> -->
 		</div>
 	</header>
 	<main>
@@ -118,7 +133,7 @@
 				<div class="left-actions-section">
 					<div class="set1 row">
 						<button class="btn blue-btn">Default</button>
-						<button class="btn">Default</button>
+						<button class="btn default-btn">Default</button>
 					</div>
 					<div class="set2 row">
 						<button class="btn sml-btn blue-btn">Small</button>

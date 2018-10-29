@@ -11,22 +11,28 @@
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-	<title> Elements </title>
+	<title>Momentum</title>
 </head>
 <body>
 	<header>
 		<div class="wrapper">
 			<nav class="header__nav">
-				<ul>
+				<ul class="first-ul">
 					<li><a href="#">Home</a></li>
-					<a href="#"><li>Dropdown
+					<li class="dropdown-parent"><a href="#">Dropdown</a>
 						<ul class="dropdown-main">
 							<li>Option 1</li>
 							<li>Option 2</li>
 							<li>Option 3</li>
-							<li>Submenu</li>
+							<li class="submenu-parent">Submenu
+								<ul class="submenu-main">
+									<li>Option 1</li>
+									<li>Option 2</li>
+									<li>Option 3</li>
+								</ul>
+							</li>
 						</ul>
-					</li></a>
+					</li>
 					<li><a href="generic.html">Generic</a></li>
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
@@ -49,14 +55,14 @@
 				</div>
 			</div>
 			<div class="hero__card">
-				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="" class="hero__img">
+				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="" class="">
 				<div class="hero__card-overlay">
 					<h3>Ea aliqua magna in.</h3>
 					<button class="btn">Learn More</button>
 				</div>
 			</div>
 			<div class="hero__card">
-				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="" class="hero__img">
+				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="" class="">
 				<div class="hero__card-overlay">
 					<h3>Aliquip sed laboris eu.</h3>
 					<button class="btn">Learn More</button>
@@ -71,31 +77,31 @@
 				<h3>Dolor adipisicing ea et. Aliqua veniam proident. Lorem ipsum sed sit consectetur ea culpa. In id est in culpa.</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maxime dolore excepturi quae sint, laborum pariatur id molestias accusantium, consequuntur ad. Doloribus consequatur placeat minus dicta dolor suscipit reiciendis quo!</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur explicabo libero, cumque. Ab voluptatem laboriosam id placeat facere, consequatur aliquid deserunt assumenda! Voluptatum molestiae nihil dolore neque sed sequi consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum blanditiis, rerum nobis modi eius est, eligendi illo eum in corporis, reprehenderit et nisi magnam autem cupiditate exercitationem ut. Esse, libero.</p>
-				<button class="btn">Learn More</button>
+				<button class="btn default-btn">Learn More</button>
 			</div>
 			<div class="section2-card">
-				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="">
+				<div class="overflow-control"><img src="assets/media/josh-carter-692791-unsplash.jpg" alt=""></div>
 				<h4>Dolor adipisicing ea et.</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maxime dolore excepturi quae sint, laborum pariatur id molestias accusantium, consequuntur ad. Doloribus consequatur placeat minus dicta dolor suscipit reiciendis quo!</p>
-				<button class="btn">Learn More</button>
+				<button class="btn default-btn">Learn More</button>
 			</div>
 			<div class="section2-card">
-				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="">
+				<div class="overflow-control"><img src="assets/media/josh-carter-692791-unsplash.jpg" alt=""></div>
 				<h4>Occaecat dolore anim sint.</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maxime dolore excepturi quae sint, laborum pariatur id molestias accusantium, consequuntur ad. Doloribus consequatur placeat minus dicta dolor suscipit reiciendis quo!</p>
-				<button class="btn">Learn More</button>
+				<button class="btn default-btn">Learn More</button>
 			</div>
 			<div class="section2-card">
-				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="">
+				<div class="overflow-control"><img src="assets/media/josh-carter-692791-unsplash.jpg" alt=""></div>
 				<h4>Commodo eiusmod mollit eu nulla.</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maxime dolore excepturi quae sint, laborum pariatur id molestias accusantium, consequuntur ad. Doloribus consequatur placeat minus dicta dolor suscipit reiciendis quo!</p>
-				<button class="btn">Learn More</button>
+				<button class="btn default-btn">Learn More</button>
 			</div>
 			<div class="section2-card">
-				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="">
+				<div class="overflow-control"><img src="assets/media/josh-carter-692791-unsplash.jpg" alt=""></div>
 				<h4>Mollit tempor.</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maxime dolore excepturi quae sint, laborum pariatur id molestias accusantium, consequuntur ad. Doloribus consequatur placeat minus dicta dolor suscipit reiciendis quo!</p>
-				<button class="btn">Learn More</button>
+				<button class="btn default-btn">Learn More</button>
 			</div>
 		</div>
 
@@ -103,11 +109,11 @@
 
 		<div class="section3">
 			<div class="section3-card">
-				<img src="assets/media/josh-carter-692791-unsplash.jpg" alt="">
+				<div class="overflow-control"><img src="assets/media/josh-carter-692791-unsplash.jpg" alt=""></div>
 				<div class="section3-card-content">
 					<h3>Ut irure ex. emmc utolf</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam facere suscipit quasi odio, voluptatum repellendus similique molestiae impedit, ipsum doloremque nisi ratione, dolorum voluptas at sed adipisci libero cum recusandae.</p>
-					<button class="btn">Learn More</button>
+					<button class="btn default-btn">Learn More</button>
 				</div>
 			</div>
 		</div>

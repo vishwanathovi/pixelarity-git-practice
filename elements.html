@@ -350,38 +350,32 @@
 							<option value="Morning">Morning</option>
 						</select>
 					</div>
-					<div class="row radio-main">
-						<div class="radio-set">
-							<span class="circle"></span>
-							<input class="radio-btn" type="radio" id="alpha"
-							value="alpha" checked />
-							<label class="radio-label alpha-radio" for="alpha">Radio alpha</label>
 
-						</div>
-						<div class="radio-set">
-							<span class="circle"></span>
-							<input type="radio" id="beta"
-							value="beta" />
-							<label class="radio-label" for="beta">Radio beta</label>
-						</div>
-						<div class="radio-set">
-							<span class="circle"></span>
-							<input type="radio" id="gamma"
-							value="gamma" />
-							<label class="radio-label" for="gamma">Radio gamma</label>
-						</div>
+					<div class="row radio-main">
+						<label class="radio-label">Radio alpha
+							<input type="radio" checked="checked" name="rad">
+							<span class="circle-rad"></span>
+						</label>
+
+						<label class="radio-label">Radio beta
+							<input type="radio" checked="" name="rad">
+							<span class="circle-rad"></span>
+						</label>
+
+						<label class="radio-label">Radio gamma
+							<input type="radio" checked="" name="rad">
+							<span class="circle-rad"></span>
+						</label>
 					</div>
-					<div class="row">
-						<div>
-							<input type="checkbox" id="alpha"
-							name="drone" value="alpha" checked />
-							<label for="alpha">Checkbox alpha</label>
-						</div>
-						<div>
-							<input type="checkbox" id="beta"
-							name="drone" value="beta" checked />
-							<label for="beta">Checkbox beta</label>
-						</div>
+					<div class="row check-main">
+						<label class="checkbox-label">Checkbox alpha
+							<input type="checkbox" checked="checked" name="check">
+							<span class="square-rad"></span>
+						</label>
+						<label class="checkbox-label">Checkbox beta			
+							<input type="checkbox" name="check">
+							<span class="square-rad"></span>
+						</label>
 					</div>
 					<div class="row">
 						<textarea placeholder="Alpha beta gamma delta"></textarea>
@@ -423,11 +417,11 @@
 					<h3>Preformatted</h3>
 					<pre class="code-text">
   i = 0;
-  
+
   while(!deck.isInOrder()){
-   print "Iteration" + i;
-   deck.shuffle();
-   i++;
+    print "Iteration" + i;
+    deck.shuffle();
+    i++;
   }
 
   print 'It took' + i + 'iterations sort the deck.'

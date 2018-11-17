@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-   */ 
+   */  
 
    html, body, div, span, applet, object, iframe,
    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -167,20 +167,7 @@
     text-indent: 60px;
   }
 
-  .box-text{
-    border:2px solid #eee;
-    border-radius: 10px;
-    padding:20px;
-  }
 
-  .code-text{
-    font-family: monospace;
-    background-color: #fafafa;
-    padding:30px 10px;
-    font-size: 0.9em;
-    border:2px solid #eee;
-    border-radius: 10px;
-  }
 
   /* Button formatting */
 
@@ -266,11 +253,6 @@
   }
 
 
-  .header__nav ul li a:hover{
-    color:white;
-    transition-property: color;
-    transition-duration: 0.5s;
-  }
 
   .header__sm-text strong, .header__lr-text{
     color:white;
@@ -460,13 +442,7 @@
 
   /* Blockquote section formatting */
 
-  blockquote{
-    padding:30px;
-    border-left:10px solid #ccc;
-    font-weight: 0.9em;
-    font-style: italic;
-    line-height: 1.75;
-  }
+
 
   /* Table section formatting */
 
@@ -699,21 +675,9 @@ input, textarea, select{
 
 /* Image gallery section */
 
-.main-img{
-  width:100%;
-}
 
-.img-gallery{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15px;
-}
 
-.img-gallery img{
-  width: 100%;
-}
-
-/* Index formatting */
+/* Index.html formatting */
 
 .hero{
   display: grid;
@@ -797,25 +761,6 @@ input, textarea, select{
 /* Section 3 formatting */
 
 
-.section3{
-  padding:100px 50px;
-  background-color: #eee;
-}
-
-.section3-card{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 30px;
-  align-items:center;
-  background-color: white;
-}
-
-.section3 img{
-  width: 100%;
-  height:500px;
-  object-fit: cover;
-}
-
 .section2 img:hover{
   transform: scale(1.2);
   transition:all 0.3s ease-in-out;
@@ -864,44 +809,6 @@ input, textarea, select{
     color:white;
   }
 
-
-
-  .section3-blue form {
-    display:flex;
-    flex-direction:row;
-    border:2px solid white;
-    border-radius: 50px;
-    /* padding:2px; */
-    height: 50px;
-    width:80%;
-    margin:0 auto;
-    /*padding-left:20px;*/
-  }
-
-
-  .section3-blue input {
-    flex-grow:2;
-    border-radius: 50px 0px 0px 50px;
-    border: none;
-    padding: 5px;
-    outline-offset: 0px;
-    padding-left:20px;
-    color:#999;
-  }
-
-
-  .section3-blue input:focus{
-    outline: 0px;
-  }
-
-
-  .section3-blue form button {
-    width: 30%;  
-    border:1px solid #fff;
-    background:#2388fa;
-    border-radius: 0px 50px 50px 0px;
-    color:white;
-  }
 
 
   .section3-blue .pad{
@@ -953,52 +860,6 @@ h2{
     padding : 30px;
   }
 
-  footer .footer__touch-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(auto,1fr);
-    grid-gap:15px;
-    grid-auto-flow: dense;
-    font-size: 0.8em;
-  }
-
-  .footer__touch-cards.span-card{
-    grid-row: span 3;
-  }
-
-  .footer__touch-cards>*{
-    vertical-align: baseline;
-  }
-
-  .footer__touch-cards i{
-    padding-right: 5px;
-    /*justify-self:center;*/
-  }
-
-  .footer__touch-cards{
-    display: grid;
-    grid-template-columns: 30px 1fr;
-    /*line-height: 30px;*/
-    /*align-items: center;*/
-  }
-
-  .footer__touch-cards:nth-child(4) a{
-    line-height: 1.75;
-  }
-
-  .footer__touch-cards:nth-child(4) i{
-    padding-top:5px;
-  }
-
-  .footer__touch-cards:hover{
-    color:white !important;
-    transition-duration: 0.3s;
-  }
-
-  .footer__touch-cards:hover a{
-    color:white !important;
-    transition-duration: 0.3s;
-  }
 
 
   footer a{
@@ -1153,21 +1014,6 @@ h2{
     position: relative;
   }
 
-  .first-ul>li.select-li:after{
-    content: "";
-    display: block;
-    /*width: 100px;*/
-    width:60%;
-    border:1px solid #2388fa;
-    /*margin:0 auto;*/
-    position: absolute;
-    left:22%;
-    top:120%;
-  }
-
-  .first-ul li.select-li a{
-    color:white;
-  }
 
 
   /* Media queries */

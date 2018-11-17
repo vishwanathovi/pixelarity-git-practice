@@ -866,6 +866,7 @@ h2{
   footer{
     color:rgba(255, 255, 255, 0.65);
     background-color: #0d0d0d;
+    height: 100vh;
   }
 
   footer .footer-grid{
@@ -875,6 +876,7 @@ h2{
     padding: 50px;
     justify-content: space-between;
     column-gap: 5%;
+    margin-bottom: 2em;
   }
 
   footer .col{
@@ -903,7 +905,8 @@ h2{
 
 
   .copyrights small{
-    font-size: 0.8em;
+    font-size: 0.9em;
+    color: #545454;
   }
 
 
@@ -1040,6 +1043,39 @@ h2{
     visibility: visible;
     opacity: 1; 
     transition-duration: 0.6s;
+  }
+
+  /* Footer Re-factor */
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact1 {
+  
+  }
+
+  .contact2 {
+    
+  }
+
+  .icon-contact {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .icon-contact a {
+    display: block;
+  }
+
+  .footer__touch-cards {
+    margin: 1.3em 0;
+  }
+
+  .address {
+    display: grid;
+    grid-template-columns: auto 1fr;
   }
 
   /* header nav underline */

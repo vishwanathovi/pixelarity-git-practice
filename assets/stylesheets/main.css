@@ -842,6 +842,7 @@ h2{
     padding: 50px;
     justify-content: space-between;
     column-gap: 5%;
+    margin-bottom: 2em;
   }
 
   footer .col{
